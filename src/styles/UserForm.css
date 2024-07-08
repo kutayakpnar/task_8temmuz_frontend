@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="file"],
+form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    width: 200px; 
+    margin: 0 auto; 
+}
+
+form button:hover {
+    background-color: #218838;
+}

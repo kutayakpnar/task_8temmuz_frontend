@@ -1,0 +1,81 @@
+.user-list {
+    margin-top: 20px;
+}
+
+.user-list h2 {
+    text-align: center;
+    color: #333;
+}
+
+.user-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-list li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-list li .user-profile {
+    width: 100px; /* Profil fotoğrafının genişliğini ayarlıyoruz */
+    height: 100px; /* Profil fotoğrafının yüksekliğini ayarlıyoruz */
+    border-radius: 50%;
+    object-fit: cover; /* Fotoğrafın içinde bulunduğu alanı doldurmasını sağlıyoruz */
+}
+
+.user-details {
+    flex-grow: 1;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.user-details p {
+    margin: 0;
+    padding: 2px 0;
+}
+
+.delete-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.delete-icon img {
+    width: 30px; 
+    height: 30px;
+    transition: transform 0.2s, filter 0.2s; 
+}
+
+.delete-icon:hover img {
+    transform: scale(1.2); 
+    filter: brightness(0.8); 
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.link button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.link button:hover {
+    background-color: #0056b3;
+}
